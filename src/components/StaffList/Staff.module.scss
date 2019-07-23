@@ -1,0 +1,23 @@
+@import '../../index';
+.staffList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .listItem{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    div, img{
+      float: left;
+      margin-left: 20px;
+    }
+    img{
+      border-radius: $borderRadius;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

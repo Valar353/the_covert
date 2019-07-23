@@ -1,0 +1,10 @@
+.staffList{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  div, img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+}
