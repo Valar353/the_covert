@@ -1,4 +1,3 @@
-# the_covert
 # React + redux + saga/thunk + router. 
 Для имитации бека можно юзать https://mocklab.io/ или аналоги.
 Два экрана, на одном список сотрудников с аватарками (gravatar или whatever), имя, фамилия, должность. 
