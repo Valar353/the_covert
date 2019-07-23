@@ -21,7 +21,7 @@ export default class AddStaff extends React.Component {
     render() {
 
         return (
-            <img src={addIcon} onClick={this.addStaff} />
+            <img src={addIcon} onClick={this.addStaff} style={{marginRight:'-5px'}} />
         );
     }
 }
